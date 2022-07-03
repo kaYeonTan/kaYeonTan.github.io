@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "🎮공부하는 개발자🎮"
+title                    : "공부하는 개발자"
 title_separator          : "-"
-subtitle                 : "하나씩 차근차근"
+subtitle                 : " 하나씩 차근차근"
 name                     : "이수완(Lee suwan)"
 description              : "-"
 url                      : # the base hostname & protocol for your site e.g. "https://kayeontan.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "https://github.com/kaYeonTan/kaYeonTan.github.io.git"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "이수완"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : " **공부 기록일지**📒"
+  location         : "🌏South Korea"
   email            :
   links:
     - label: "Email"
