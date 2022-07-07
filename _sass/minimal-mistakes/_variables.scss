@@ -13,11 +13,10 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "Comming Soon", Georgia, Times, serif !default;
-$sans-serif: "EarlyFontDiary","Iropke Batang",
-            -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$serif: "Coming Soon", Georgia, Times, serif !default;
+$sans-serif: "Coming Soon","EarlyFontDiary","Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
-$cute: "EarlyFontDiary" !default;
+$cute: "Coming Soon","EarlyFontDiary" !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $cute;//$sans-serif !default; // 상단 바
@@ -31,7 +30,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $cute;// $sans-serif !default; // 하단 바
-$header-font-family: $cute !default; // 최근 포스트
+$header-font-family: $cute;// !default; // 최근 포스트
 $caption-font-family: $monospace !default; // ?
 
 /* type scale */

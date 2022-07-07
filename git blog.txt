@@ -8,5 +8,13 @@ git commit -m "커밋메세지"
 git remote -v
 git pull origin main
 pull 안 될 경우 git pull --rebase
-git psh origin main
+git push origin main
+
+
+cd GitBlog
+cd kaYeonTan.github.io
+bundle exec jekyll serve
+
+사이트 내 한글? (C:\Users\JCnet\GitBlog\kaYeonTan.github.io\_data)
+
 

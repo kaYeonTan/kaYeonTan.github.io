@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "ko-KR"
 title                    : "공부하는 개발자"
 title_separator          : "-"
-subtitle                 : " 하나씩 차근차근"
+#subtitle                 : ""
 name                     : "이수완(Lee suwan)"
-description              : "꾸준히 오랫동안 학습하기"
+description              : "꾸준히 기록하는 습관"
 url                      :  "https://kayeontan.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/kaYeonTan/kaYeonTan.github.io.git"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lee Su-wan"
+  name             : "Lee Suwan😺"
   avatar           : "/assets/images/Kaeul.jpg" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준히 기록하는 습관"
   location         : "🌏South Korea"
