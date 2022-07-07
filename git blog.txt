@@ -1,0 +1,12 @@
+Git 업로드 순서
+
+git init
+git 
+git add .
+git commit -m "커밋메세지"
+안 될 경우 git remote add origin https://github.com/kaYeonTan/kaYeonTan.github.io.git
+git remote -v
+git pull origin main
+pull 안 될 경우 git pull --rebase
+git psh origin main
+
