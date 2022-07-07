@@ -13,14 +13,15 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$serif: "Comming Soon", Georgia, Times, serif !default;
+$sans-serif: "EarlyFontDiary","Iropke Batang",
+            -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$cute: "EarlyFontDiary" !default;
 
 /* sans serif typefaces */
-$sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$sans-serif-narrow: $cute;//$sans-serif !default; // 상단 바
+$helvetica: "Nanum Gothic Coding", Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -29,9 +30,9 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
-$caption-font-family: $serif !default;
+$global-font-family: $cute;// $sans-serif !default; // 하단 바
+$header-font-family: $cute !default; // 최근 포스트
+$caption-font-family: $monospace !default; // ?
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px

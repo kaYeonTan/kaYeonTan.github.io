@@ -7,3 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); // 나눔고딕 코딩
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');//comming soon
+@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css'); //이로운 바탕체
+
+@font-face { // 다이어리체
+  font-family: 'EarlyFontDiary';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
