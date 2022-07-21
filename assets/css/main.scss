@@ -1,35 +1,34 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); // ?‚˜?ˆ”ê³ ë”• ì½”ë”©
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); // ?ï¿½ï¿½?ï¿½ï¿½ê³ ë”• ì½”ë”©
 
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap%27');//coming soon
-@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css'); //?´ë¡œìš´ ë°”íƒ•ì²?
+@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css'); //?ï¿½ï¿½ë¡œìš´ ë°”íƒ•ï¿½?
 
-@font-face { // ?‹¤?´?–´ë¦¬ì²´
+@font-face { // ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ë¦¬ì²´
   font-family: 'EarlyFontDiary';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
-html {
-  font-size: 16px; // originally 16px //? ?—†?Œ..
+/*html {
+  font-size: 16px; // originally 16px //? ?ï¿½ï¿½?ï¿½ï¿½..
   @include breakpoint($medium) {
-    font-size: 16px; // originally 18px // ?ë³??™” ?—†
+    font-size: 16px; // originally 18px // ?ï¿½??ï¿½ï¿½ ?ï¿½ï¿½
   }
 
   @include breakpoint($large) {
-    font-size: 18x; // originally 20px // ë³??™”?—†?Œ..
+    font-size: 18x; // originally 20px // ï¿½??ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½..
   }
 
   @include breakpoint($x-large) {
-    font-size: 20px; // originally 22px // ? „ì²? ê¸??”¨
+    font-size: 20px; // originally 22px // ?ï¿½ï¿½ï¿½? ï¿½??ï¿½ï¿½
   }
-}
+}*/
