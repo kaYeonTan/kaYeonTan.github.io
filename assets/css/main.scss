@@ -7,12 +7,12 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); // ë‚˜ëˆ”ê³ ë”• ì½”ë”©
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); // ?‚˜?ˆ”ê³ ë”• ì½”ë”©
 
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap%27');//coming soon
-@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css'); //ì´ë¡œìš´ ë°”íƒ•ì²´
+@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css'); //?´ë¡œìš´ ë°”íƒ•ì²?
 
-@font-face { // ë‹¤ì´ì–´ë¦¬ì²´
+@font-face { // ?‹¤?´?–´ë¦¬ì²´
   font-family: 'EarlyFontDiary';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
   font-weight: normal;
@@ -20,16 +20,16 @@ search: false
 }
 
 html {
-  font-size: 50px; // originally 16px //? ì—†ìŒ..
+  font-size: 16px; // originally 16px //? ?—†?Œ..
   @include breakpoint($medium) {
-    font-size: 30px; // originally 18px // ?ë³€í™” ì—†
+    font-size: 16px; // originally 18px // ?ë³??™” ?—†
   }
 
   @include breakpoint($large) {
-    font-size: 1px; // originally 20px // ë³€í™”ì—†ìŒ..
+    font-size: 18x; // originally 20px // ë³??™”?—†?Œ..
   }
 
   @include breakpoint($x-large) {
-    font-size: 20px; // originally 22px // ì „ì²´ ê¸€ì”¨
+    font-size: 20px; // originally 22px // ? „ì²? ê¸??”¨
   }
 }
