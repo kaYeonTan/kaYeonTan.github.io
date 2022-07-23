@@ -1,4 +1,4 @@
-<!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+<!--�쟾泥� 湲� �닔瑜� �꽭湲� �쐞�븳 �뿰�궛. sum 蹂��닔�뿉 �쟾泥� 湲� �닔 ����옣-->
 
 {% assign sum = site.posts | size %}
 
@@ -6,9 +6,9 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
+      <!--�쟾泥� 湲� �닔-->
       <li>
-            <span style="font-family:'EarlyFontDiary';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'EarlyFontDiary';">개</style> 
+            <span style="font-family:'EarlyFontDiary';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'EarlyFontDiary';">媛�</style> 
       </li>
       <li>
         <span class="nav__sub-title">C/C++/C#</span>
@@ -29,7 +29,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "baekjoon_cpp" %}
-                        <li><a href="/categories/baekjoon_cpp" class=""> 백준(C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/baekjoon_cpp" class="">백준(C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
