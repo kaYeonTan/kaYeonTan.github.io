@@ -8,18 +8,18 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  font-size: 14px; // 뭔지 모르겠음
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 12px; // 본문
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 14px; // 제목
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 16px; // 전체적인 글씨 크기(?)
   }
 
   -webkit-text-size-adjust: 100%;
