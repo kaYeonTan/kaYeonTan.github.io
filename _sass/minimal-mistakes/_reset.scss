@@ -11,7 +11,7 @@ html {
   font-size: 14px; // 뭔지 모르겠음
 
   @include breakpoint($medium) {
-    font-size: 12px; // 본문
+    font-size: 13px; // 본문
   }
 
   @include breakpoint($large) {
