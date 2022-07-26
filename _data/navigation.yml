@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Home"
-     #url: /index.html
+  #- title: "Home"
+   #  url: /index.html
   # - title: "About"
   #   url: /about/
-  - title: "Category"
-      #url: /year-archive/
+  #- title: "Category"
+    #  url: pages/categories/
   #- title: "Tag"
   #   url: /collection-archive/
   #- title: "Post by Year"
