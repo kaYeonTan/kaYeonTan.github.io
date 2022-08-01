@@ -1,5 +1,5 @@
 ---
-title: "Unity1"
+title: "Unity Lesson 1"
 layout: archive
 permalink: categories/unity1
 author_profile: true
