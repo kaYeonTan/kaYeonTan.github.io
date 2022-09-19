@@ -49,8 +49,8 @@
         <span class="nav__sub-title">Unity</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "unityMath" %}
-                        <li><a href="/categories/unityMath" class=""> 게임 수학 ({{category[1].size}})</a></li>
+                    {% if category[0] == "gameMath" %}
+                        <li><a href="/categories/gameMath" class=""> 게임 수학 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

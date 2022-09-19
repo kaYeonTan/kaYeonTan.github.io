@@ -1,11 +1,11 @@
 ---
-title: "Unity Math"
+title: "Game Math"
 layout: archive
-permalink: categories/unityMath
+permalink: categories/gameMath
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.unityMath %}
+{% assign posts = site.categories.gameMath %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
