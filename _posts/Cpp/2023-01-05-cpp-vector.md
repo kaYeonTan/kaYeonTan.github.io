@@ -290,6 +290,31 @@ resize는 지정한 수 만큼 요소를 만들어준다. capacity가 작으면 
 <br>
 <br>
 
+##### algorithm 헤더
+
+>replace 함수  
+
+벡터의 값을 변경할 때 사용했던 함수이다.  
+
+```cpp
+//		벡터의 시작,   벡터의 끝,  10의 값을 모두 90으로 변경
+replace(temp.begin(), temp.end(), 10, 90);
+```
+
+구간을 지정하고 배열을 돌아 값을 찿고, 해당 값을 모두 설정한 값으로 변경해준다.  
+시간복잡도가 큰 것 같다,,  
+
+>정렬 함수  
+
+- 오름차순  
+`sort(score.begin(), score.end());`  
+ 
+- 내림차순(r을 붙인다)   
+`sort(score.rbegin(), score.rend());`  
+
+<br>
+<br>
+
 ##### 예제  
 
 ```cpp
