@@ -82,6 +82,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Unreal</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "UE4" %}
+                        <li><a href="/categories/ue4" class=""> 언리얼 4 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">ETC..</span>
             <ul>
                 {% for category in site.categories %}
